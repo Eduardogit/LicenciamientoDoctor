@@ -1,0 +1,12 @@
+sudo composer update
+
+
+//CREAR LA BASE DE DATOS Y COPIAR EL CONTENIDO DE 
+//.env.example a .env
+
+php artisan key:generate
+
+php artisan migrate
+
+php artisan serve    
+
